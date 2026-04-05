@@ -1,0 +1,17 @@
+/* Smooth scrolling for navigation links */
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 80px 0;
+}
+
+/* Add a hover effect to cards */
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
